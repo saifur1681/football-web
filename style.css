@@ -23,7 +23,7 @@ body{
     font-size:64px;
     line-height: 80px;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 200;
     transition: transform 3s;
 }
 #copa-america:hover{
@@ -51,4 +51,27 @@ span{
     height:438px;
     margin-right: 140px;
     margin-top: 153px;
+}
+/* Top Players style */
+.top-players{
+    padding-top:70px;
+    padding-left: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 25px;
+   
+}
+.player{
+    flex-direction:row;
+    align-items:flex-start;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px 10px  rgb(248, 243, 243);
+}
+.player img{
+    width: 360px;
+    height:470 ;
+    
 }
