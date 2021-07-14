@@ -30,6 +30,7 @@ body{
     transform: rotate(360deg);
 
 }
+/* link button */
 .watch-link a{
     padding: 10px 24px;
     background-color:#E02C6D;
@@ -41,6 +42,7 @@ body{
     text-decoration:none;
     color:aliceblue;
     display: inline;
+    font-weight: 100;
 }
 span{
     padding-left: 5px;
@@ -94,6 +96,7 @@ margin-left:220px;
     margin-bottom: 50px;
     margin-top:150px;
     border: 14px solid rgb(5, 5, 146);
+    border-radius: 10px;
     
 }
 .team-schedule{
@@ -114,6 +117,30 @@ margin-left:220px;
     height: 70px;
     margin-top:20px;
 }
+/* news section */
+.read{
+    
+    height: 300px;
+    border: 15px solid #a0252f;
+    padding: 20px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-top:150px;
+    
+}
+#top-news{
+   margin-left: 420px;
+   font-weight: 900;
+   color: #e41414;
+   font-size: 50px;
+   
+}
+#boris-pic img{
+    height:180px;
+    width: 380px;
+    margin-left:430px;
+    border-radius:10px;
+}
 
 /* footer section */
 .photo{
@@ -121,7 +148,7 @@ margin-left:220px;
     flex-direction:column;
     width: 483px;
     height: 113px;
-    margin-top:150px;
+    margin-top:120px;
     margin-left: 420px;
 }
 .logo{
